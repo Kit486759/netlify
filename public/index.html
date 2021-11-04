@@ -32,8 +32,27 @@
         margin-top: 10px;
         font-size: 70px;
       }
+      @media screen and (max-width: 1024px) {
+        .bg {
+          background-position: center;
+        }
+        .textWrap {
+          left: 171px;
+          top: 146px;
+        }
+      }
 
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 768px) {
+        .bg {
+          background-position: center top;
+        }
+        .textWrap {
+          left: 50px;
+          top: 146px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
         .bg {
           background-image: url(images/maintenance-device.png);
           background-repeat: no-repeat !important;
@@ -43,7 +62,6 @@
           background-position: center;
         }
         .textWrap {
-          position: absolute;
           left: 20px;
           top: 50px;
         }
